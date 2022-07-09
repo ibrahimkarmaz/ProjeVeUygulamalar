@@ -1,0 +1,13 @@
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\bin\Debug\KelimeBulmaOyunu.exe.config
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\bin\Debug\KelimeBulmaOyunu.exe
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\bin\Debug\KelimeBulmaOyunu.pdb
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.csprojResolveAssemblyReference.cache
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.Properties.Resources.resources
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.csproj.GenerateResource.Cache
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.exe
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.pdb
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.Oyun_Giris_Penceresi.resources
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.Yonetici_Girisi_Penceresi.resources
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.kelime_ekleme_penceresi.resources
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.kelime_oyun_ekrani.resources
+C:\Users\ibrah\OneDrive\Belgeler\Visual Studio 2013\Projects\KBO\KelimeBulmaOyunu\obj\Debug\KelimeBulmaOyunu.top_x_penceresi.resources

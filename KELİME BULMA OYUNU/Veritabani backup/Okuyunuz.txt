@@ -1,0 +1,9 @@
+VİDEODA GÖSTERİLEN ADIMLARINI İZLEYİNİZ.
+
+
+
+
+
+/*DİĞER YÖNTEM*/
+Veritabanlarinin bulunuduğu adresleri verir.(YENİ KODA YAZIN.)
+SELECT name, physical_name AS db_file_location FROM sys.master_files
