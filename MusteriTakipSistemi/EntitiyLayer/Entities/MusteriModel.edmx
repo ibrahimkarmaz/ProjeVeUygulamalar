@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MYSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="giris_tablosu">
+          <Key>
+            <PropertyRef Name="kullanici_adi" />
+          </Key>
+          <Property Name="kullanici_adi" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="parola" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="ilceler">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="ilce" Type="nvarchar" MaxLength="255" />
+          <Property Name="sehir" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="iller">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sehir" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="MusteriTablosu">
+          <Key>
+            <PropertyRef Name="tcno" />
+          </Key>
+          <Property Name="tcno" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="ad" Type="varchar" MaxLength="20" />
+          <Property Name="soyad" Type="varchar" MaxLength="20" />
+          <Property Name="cinsiyet" Type="varchar" MaxLength="5" />
+          <Property Name="il" Type="varchar" MaxLength="20" />
+          <Property Name="ilce" Type="varchar" MaxLength="20" />
+          <Property Name="cep_telefonu" Type="varchar" MaxLength="20" />
+          <Property Name="ev_telefonu" Type="varchar" MaxLength="20" />
+          <Property Name="eposta" Type="varchar" MaxLength="50" />
+          <Property Name="ev_adresi" Type="varchar" MaxLength="150" />
+          <Property Name="aciklama" Type="varchar" MaxLength="200" />
+          <Property Name="arsiv" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="MYSModelStoreContainer">
+          <EntitySet Name="giris_tablosu" EntityType="Self.giris_tablosu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ilceler" EntityType="Self.ilceler" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="iller" EntityType="Self.iller" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MusteriTablosu" EntityType="Self.MusteriTablosu" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MYSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="giris_tablosu">
+          <Key>
+            <PropertyRef Name="kullanici_adi" />
+          </Key>
+          <Property Name="kullanici_adi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="parola" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ilceler">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="ilce" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="sehir" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="iller">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sehir" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="MusteriTablosu">
+          <Key>
+            <PropertyRef Name="tcno" />
+          </Key>
+          <Property Name="tcno" Type="String" MaxLength="11" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="ad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="soyad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="cinsiyet" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="il" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ilce" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="cep_telefonu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ev_telefonu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="eposta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ev_adresi" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="aciklama" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="arsiv" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="MYSEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="giris_tablosu" EntityType="Self.giris_tablosu" />
+          <EntitySet Name="ilcelers" EntityType="Self.ilceler" />
+          <EntitySet Name="illers" EntityType="Self.iller" />
+          <EntitySet Name="MusteriTablosus" EntityType="Self.MusteriTablosu" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MYSModelStoreContainer" CdmEntityContainer="MYSEntities">
+          <EntitySetMapping Name="giris_tablosu">
+            <EntityTypeMapping TypeName="MYSModel.giris_tablosu">
+              <MappingFragment StoreEntitySet="giris_tablosu">
+                <ScalarProperty Name="kullanici_adi" ColumnName="kullanici_adi" />
+                <ScalarProperty Name="parola" ColumnName="parola" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ilcelers">
+            <EntityTypeMapping TypeName="MYSModel.ilceler">
+              <MappingFragment StoreEntitySet="ilceler">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="ilce" ColumnName="ilce" />
+                <ScalarProperty Name="sehir" ColumnName="sehir" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="illers">
+            <EntityTypeMapping TypeName="MYSModel.iller">
+              <MappingFragment StoreEntitySet="iller">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sehir" ColumnName="sehir" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MusteriTablosus">
+            <EntityTypeMapping TypeName="MYSModel.MusteriTablosu">
+              <MappingFragment StoreEntitySet="MusteriTablosu">
+                <ScalarProperty Name="tcno" ColumnName="tcno" />
+                <ScalarProperty Name="ad" ColumnName="ad" />
+                <ScalarProperty Name="soyad" ColumnName="soyad" />
+                <ScalarProperty Name="cinsiyet" ColumnName="cinsiyet" />
+                <ScalarProperty Name="il" ColumnName="il" />
+                <ScalarProperty Name="ilce" ColumnName="ilce" />
+                <ScalarProperty Name="cep_telefonu" ColumnName="cep_telefonu" />
+                <ScalarProperty Name="ev_telefonu" ColumnName="ev_telefonu" />
+                <ScalarProperty Name="eposta" ColumnName="eposta" />
+                <ScalarProperty Name="ev_adresi" ColumnName="ev_adresi" />
+                <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+                <ScalarProperty Name="arsiv" ColumnName="arsiv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MYSModelStoreContainer" CdmEntityContainer="MYSEntities">
+    <EntitySetMapping Name="giris_tablosu">
+      <EntityTypeMapping TypeName="MYSModel.giris_tablosu">
+        <MappingFragment StoreEntitySet="giris_tablosu">
+          <ScalarProperty Name="kullanici_adi" ColumnName="kullanici_adi" />
+          <ScalarProperty Name="parola" ColumnName="parola" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ilcelers">
+      <EntityTypeMapping TypeName="MYSModel.ilceler">
+        <MappingFragment StoreEntitySet="ilceler">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="illers">
+      <EntityTypeMapping TypeName="MYSModel.iller">
+        <MappingFragment StoreEntitySet="iller">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MusteriTablosus">
+      <EntityTypeMapping TypeName="MYSModel.MusteriTablosu">
+        <MappingFragment StoreEntitySet="MusteriTablosu">
+          <ScalarProperty Name="tcno" ColumnName="tcno" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="soyad" ColumnName="soyad" />
+          <ScalarProperty Name="cinsiyet" ColumnName="cinsiyet" />
+          <ScalarProperty Name="il" ColumnName="il" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="cep_telefonu" ColumnName="cep_telefonu" />
+          <ScalarProperty Name="ev_telefonu" ColumnName="ev_telefonu" />
+          <ScalarProperty Name="eposta" ColumnName="eposta" />
+          <ScalarProperty Name="ev_adresi" ColumnName="ev_adresi" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="arsiv" ColumnName="arsiv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
