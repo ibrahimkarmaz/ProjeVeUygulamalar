@@ -29,9 +29,9 @@
         </EntityType>
         <EntityType Name="MusteriTablosu">
           <Key>
-            <PropertyRef Name="tcno" />
+            <PropertyRef Name="ID" />
           </Key>
-          <Property Name="tcno" Type="char" MaxLength="11" Nullable="false" />
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ad" Type="varchar" MaxLength="20" />
           <Property Name="soyad" Type="varchar" MaxLength="20" />
           <Property Name="cinsiyet" Type="varchar" MaxLength="5" />
@@ -79,9 +79,9 @@
         </EntityType>
         <EntityType Name="MusteriTablosu">
           <Key>
-            <PropertyRef Name="tcno" />
+            <PropertyRef Name="ID" />
           </Key>
-          <Property Name="tcno" Type="String" MaxLength="11" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="ad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="soyad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="cinsiyet" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
@@ -94,18 +94,18 @@
           <Property Name="aciklama" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
           <Property Name="arsiv" Type="Boolean" />
         </EntityType>
-        <EntityContainer Name="MYSEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="MYSEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="giris_tablosu" EntityType="Self.giris_tablosu" />
-          <EntitySet Name="ilcelers" EntityType="Self.ilceler" />
-          <EntitySet Name="illers" EntityType="Self.iller" />
-          <EntitySet Name="MusteriTablosus" EntityType="Self.MusteriTablosu" />
+          <EntitySet Name="ilceler" EntityType="Self.ilceler" />
+          <EntitySet Name="iller" EntityType="Self.iller" />
+          <EntitySet Name="MusteriTablosu" EntityType="Self.MusteriTablosu" />
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="MYSModelStoreContainer" CdmEntityContainer="MYSEntities">
+        <EntityContainerMapping StorageEntityContainer="MYSModelStoreContainer" CdmEntityContainer="MYSEntities1">
           <EntitySetMapping Name="giris_tablosu">
             <EntityTypeMapping TypeName="MYSModel.giris_tablosu">
               <MappingFragment StoreEntitySet="giris_tablosu">
@@ -114,7 +114,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="ilcelers">
+          <EntitySetMapping Name="ilceler">
             <EntityTypeMapping TypeName="MYSModel.ilceler">
               <MappingFragment StoreEntitySet="ilceler">
                 <ScalarProperty Name="id" ColumnName="id" />
@@ -123,7 +123,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="illers">
+          <EntitySetMapping Name="iller">
             <EntityTypeMapping TypeName="MYSModel.iller">
               <MappingFragment StoreEntitySet="iller">
                 <ScalarProperty Name="id" ColumnName="id" />
@@ -131,10 +131,10 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="MusteriTablosus">
+          <EntitySetMapping Name="MusteriTablosu">
             <EntityTypeMapping TypeName="MYSModel.MusteriTablosu">
               <MappingFragment StoreEntitySet="MusteriTablosu">
-                <ScalarProperty Name="tcno" ColumnName="tcno" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="ad" ColumnName="ad" />
                 <ScalarProperty Name="soyad" ColumnName="soyad" />
                 <ScalarProperty Name="cinsiyet" ColumnName="cinsiyet" />
@@ -163,7 +163,7 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="None" />

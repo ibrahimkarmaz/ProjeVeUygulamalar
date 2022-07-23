@@ -51,64 +51,62 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\giris_tablosu.cs">
-      <DependentUpon>MusteriModel.tt</DependentUpon>
+      <DependentUpon>MYSMODEL.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\ilceler.cs">
-      <DependentUpon>MusteriModel.tt</DependentUpon>
+      <DependentUpon>MYSMODEL.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\iller.cs">
-      <DependentUpon>MusteriModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\MusteriModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MusteriModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\MusteriModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MusteriModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\MusteriModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MusteriModel.edmx</DependentUpon>
+      <DependentUpon>MYSMODEL.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\MusteriTablosu.cs">
-      <DependentUpon>MusteriModel.tt</DependentUpon>
+      <DependentUpon>MYSMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\MYSMODEL.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MYSMODEL.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\MYSMODEL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MYSMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\MYSMODEL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MYSMODEL.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Entities\MusteriModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MusteriModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="Entities\MusteriModel.edmx.diagram">
-      <DependentUpon>MusteriModel.edmx</DependentUpon>
+    <EntityDeploy Include="Entities\MYSMODEL.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MYSMODEL.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Entities\MYSMODEL.edmx.diagram">
+      <DependentUpon>MYSMODEL.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Entities\MusteriModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>MusteriModel.Context.cs</LastGenOutput>
-      <DependentUpon>MusteriModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="Entities\MusteriModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MusteriModel.edmx</DependentUpon>
-      <LastGenOutput>MusteriModel.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entities\MYSMODEL.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MYSMODEL.edmx</DependentUpon>
+      <LastGenOutput>MYSMODEL.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Entities\MYSMODEL.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MYSMODEL.edmx</DependentUpon>
+      <LastGenOutput>MYSMODEL.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

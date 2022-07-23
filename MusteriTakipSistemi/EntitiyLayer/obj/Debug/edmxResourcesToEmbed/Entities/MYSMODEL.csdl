@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MYSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="giris_tablosu">
+    <Key>
+      <PropertyRef Name="kullanici_adi" />
+    </Key>
+    <Property Name="kullanici_adi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="parola" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ilceler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="ilce" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="sehir" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="iller">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sehir" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MusteriTablosu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="soyad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="cinsiyet" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="il" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ilce" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="cep_telefonu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ev_telefonu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="eposta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ev_adresi" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="aciklama" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="arsiv" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="MYSEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="giris_tablosu" EntityType="Self.giris_tablosu" />
+    <EntitySet Name="ilceler" EntityType="Self.ilceler" />
+    <EntitySet Name="iller" EntityType="Self.iller" />
+    <EntitySet Name="MusteriTablosu" EntityType="Self.MusteriTablosu" />
+  </EntityContainer>
+</Schema>

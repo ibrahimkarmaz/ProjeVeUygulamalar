@@ -11,10 +11,11 @@ namespace EntitiyLayer.Entities
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class MusteriTablosu
-    {
-        public string tcno { get; set; }
+    {[Key]
+        public int ID { get; set; }
         public string ad { get; set; }
         public string soyad { get; set; }
         public string cinsiyet { get; set; }

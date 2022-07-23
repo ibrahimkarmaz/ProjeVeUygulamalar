@@ -35,6 +35,11 @@ namespace DataAccessLayer
             return DbTablolar.SaveChanges();
         }
 
+        public List<T> List()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<T> Liste()
         {
             return _Objem.ToList();

@@ -14,7 +14,7 @@ namespace DataAccessLayer.Abstract
 
         int Delete(T p);
 
-        List<T> Liste();
+        List<T> List();
         T GetById(int id);
     }
 }

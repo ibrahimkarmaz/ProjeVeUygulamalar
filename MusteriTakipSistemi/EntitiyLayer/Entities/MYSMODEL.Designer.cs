@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\MusteriTakipSistemi\EntitiyLayer\Entities\MusteriModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\EntitiyLayer\Entities\MYSMODEL.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

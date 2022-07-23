@@ -51,9 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IGirisDAL.cs" />
-    <Compile Include="Abstract\IilceDal.cs" />
-    <Compile Include="Abstract\IilDal.cs" />
     <Compile Include="Abstract\IMusteriDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Context.cs" />
