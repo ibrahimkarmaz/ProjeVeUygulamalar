@@ -25,6 +25,6 @@ namespace EntitiyLayer.Entities
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<MusteriTablosu> MusteriTablosus { get; set; }
+        public virtual DbSet<MusteriTablosu> Musteri { get; set; }
     }
 }

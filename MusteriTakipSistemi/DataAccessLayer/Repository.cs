@@ -5,13 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataAccessLayer.Abstract;
+using EntitiyLayer.Entities;
 
 
 namespace DataAccessLayer
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        Context DbTablolar = new Context();
+        MYSEntities2 DbTablolar = new MYSEntities2();
         DbSet<T> _Objem;
         //ctor yazınca Bu classta kullanılacak(çağrıldığında) yapıyı getirir.
         public Repository()
