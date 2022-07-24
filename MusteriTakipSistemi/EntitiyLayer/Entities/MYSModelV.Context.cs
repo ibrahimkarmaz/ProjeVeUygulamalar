@@ -13,10 +13,10 @@ namespace EntitiyLayer.Entities
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MYSEntities1 : DbContext
+    public partial class MYSEntities2 : DbContext
     {
-        public MYSEntities1()
-            : base("name=MYSEntities1")
+        public MYSEntities2()
+            : base("name=MYSEntities2")
         {
         }
     
@@ -25,9 +25,6 @@ namespace EntitiyLayer.Entities
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<giris_tablosu> giris_tablosu { get; set; }
-        public virtual DbSet<ilceler> ilceler { get; set; }
-        public virtual DbSet<iller> iller { get; set; }
-        public virtual DbSet<MusteriTablosu> MusteriTablosu { get; set; }
+        public virtual DbSet<MusteriTablosu> MusteriTablosus { get; set; }
     }
 }

@@ -11,21 +11,14 @@ namespace EntitiyLayer.Entities
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class MusteriTablosu
-    {[Key]
+    {
         public int ID { get; set; }
         public string ad { get; set; }
         public string soyad { get; set; }
-        public string cinsiyet { get; set; }
-        public string il { get; set; }
-        public string ilce { get; set; }
-        public string cep_telefonu { get; set; }
-        public string ev_telefonu { get; set; }
-        public string eposta { get; set; }
-        public string ev_adresi { get; set; }
-        public string aciklama { get; set; }
-        public Nullable<bool> arsiv { get; set; }
+        public string telefon { get; set; }
+        public string adres { get; set; }
+        public string resimyolu { get; set; }
     }
 }

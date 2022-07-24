@@ -130,11 +130,8 @@ C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamal
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\DevExpress.Office.v20.1.Core.dll
-C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\BusinessLayer.pdb
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\BusinessLayer.dll.config
-C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\DataAccessLayer.pdb
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\DataAccessLayer.dll.config
-C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\EntitiyLayer.pdb
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\EntitiyLayer.dll.config
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\DevExpress.Data.v20.1.xml
@@ -214,3 +211,6 @@ C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamal
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\obj\Debug\MusteriTakipSistemi.csproj.CopyComplete
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\obj\Debug\MusteriTakipSistemi.exe
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\obj\Debug\MusteriTakipSistemi.pdb
+C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\BusinessLayer.pdb
+C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\DataAccessLayer.pdb
+C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\MusteriTakipSistemi\bin\Debug\EntitiyLayer.pdb

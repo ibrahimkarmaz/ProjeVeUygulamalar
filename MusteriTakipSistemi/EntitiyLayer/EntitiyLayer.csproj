@@ -50,43 +50,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\giris_tablosu.cs">
-      <DependentUpon>MYSMODEL.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\ilceler.cs">
-      <DependentUpon>MYSMODEL.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\iller.cs">
-      <DependentUpon>MYSMODEL.tt</DependentUpon>
-    </Compile>
     <Compile Include="Entities\MusteriTablosu.cs">
-      <DependentUpon>MYSMODEL.tt</DependentUpon>
+      <DependentUpon>MYSModelV.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\MYSMODEL.Context.cs">
+    <Compile Include="Entities\MYSModelV.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MYSMODEL.Context.tt</DependentUpon>
+      <DependentUpon>MYSModelV.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\MYSMODEL.cs">
+    <Compile Include="Entities\MYSModelV.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MYSMODEL.tt</DependentUpon>
+      <DependentUpon>MYSModelV.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\MYSMODEL.Designer.cs">
+    <Compile Include="Entities\MYSModelV.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MYSMODEL.edmx</DependentUpon>
+      <DependentUpon>MYSModelV.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="Entities\MYSMODEL.edmx">
+    <EntityDeploy Include="Entities\MYSModelV.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MYSMODEL.Designer.cs</LastGenOutput>
+      <LastGenOutput>MYSModelV.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Entities\MYSMODEL.edmx.diagram">
-      <DependentUpon>MYSMODEL.edmx</DependentUpon>
+    <None Include="Entities\MYSModelV.edmx.diagram">
+      <DependentUpon>MYSModelV.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -97,15 +88,15 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Entities\MYSMODEL.Context.tt">
+    <Content Include="Entities\MYSModelV.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MYSMODEL.edmx</DependentUpon>
-      <LastGenOutput>MYSMODEL.Context.cs</LastGenOutput>
+      <DependentUpon>MYSModelV.edmx</DependentUpon>
+      <LastGenOutput>MYSModelV.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Entities\MYSMODEL.tt">
+    <Content Include="Entities\MYSModelV.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MYSMODEL.edmx</DependentUpon>
-      <LastGenOutput>MYSMODEL.cs</LastGenOutput>
+      <DependentUpon>MYSModelV.edmx</DependentUpon>
+      <LastGenOutput>MYSModelV.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

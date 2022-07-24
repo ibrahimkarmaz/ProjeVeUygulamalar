@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MYSModelVStoreContainer" CdmEntityContainer="MYSEntities2">
+    <EntitySetMapping Name="MusteriTablosus">
+      <EntityTypeMapping TypeName="MYSModelV.MusteriTablosu">
+        <MappingFragment StoreEntitySet="MusteriTablosu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="soyad" ColumnName="soyad" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="resimyolu" ColumnName="resimyolu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

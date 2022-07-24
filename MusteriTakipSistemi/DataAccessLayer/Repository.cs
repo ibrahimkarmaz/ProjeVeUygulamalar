@@ -37,7 +37,7 @@ namespace DataAccessLayer
 
         public List<T> List()
         {
-            throw new NotImplementedException();
+            return _Objem.ToList();
         }
 
         public List<T> Liste()

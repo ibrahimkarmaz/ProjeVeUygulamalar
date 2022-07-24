@@ -15,5 +15,9 @@ namespace BusinessLayer
         {
             return repositoryMusteri.Liste();
         }
+        public int Kaydet(MusteriTablosu p)
+        {
+            return repositoryMusteri.Insert(p);
+        }
     }
 }
