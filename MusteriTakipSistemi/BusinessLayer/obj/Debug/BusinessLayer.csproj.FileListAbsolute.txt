@@ -26,7 +26,6 @@ C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamal
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\bin\Debug\EntitiyLayer.dll.config
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\bin\Debug\EntityFramework.xml
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\obj\Debug\BusinessLayer.dll
@@ -34,3 +33,4 @@ C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamal
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\bin\Debug\BusinessLayer.pdb
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\bin\Debug\DataAccessLayer.pdb
 C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\bin\Debug\EntitiyLayer.pdb
+C:\Users\ibrah\OneDrive\Belgeler\GitHub\PROJELER VE UYGULAMALAR\ProjeVeUygulamalar\MusteriTakipSistemi\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
